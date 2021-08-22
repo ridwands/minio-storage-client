@@ -1,0 +1,28 @@
+{
+  "name": "minio-storage-client",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">   <img style=\"width: 100px\" src=\"https://res.cloudinary.com/keystone-demo/image/upload/v1574857532/dh7krdntjyfip9jluaiz.png\" /> </p>",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ridwands/minio-storage-client.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ridwands/minio-storage-client/issues"
+  },
+  "homepage": "https://github.com/ridwands/minio-storage-client#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "fastify": "^3.20.2",
+    "fastify-cors": "^6.0.2",
+    "fastify-graceful-shutdown": "^3.1.0",
+    "minio": "^7.0.19",
+    "node-json-logger": "0.0.17"
+  }
+}

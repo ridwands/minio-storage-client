@@ -1,0 +1,15 @@
+version : '2'
+networks:
+  ridwan-network:
+
+services:
+  node:
+      build:
+        context: .
+      ports: 
+        - '1225:1225'
+      volumes:
+        - $PWD:/app
+        - /app/node_modules
+      networks:
+        - ridwan-network
